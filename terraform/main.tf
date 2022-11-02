@@ -1,6 +1,6 @@
 resource "google_container_registry" "registry" {
   project  = var.project_id
-  location = "EU"
+  location = "US"
 }
 
 resource "google_cloudbuild_trigger" "react-trigger" {

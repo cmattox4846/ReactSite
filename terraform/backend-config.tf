@@ -1,16 +1,16 @@
-terraform {
-  backend "gcs" {
-    bucket = "terraform-tutorial-3247"
-    prefix = "state"
+# terraform {
+#   backend "gcs" {
+#     bucket = "terraform-tutorial-3247"
+#     prefix = "state"
 
-  }
-  required_version = ">= 0.12.0"
-  required_providers {
-    google = {
-      source  = "hashicorp/google"
-      version = "3.82.0"
-    }
-  }
+#   }
+#   required_version = ">= 0.12.0"
+#   required_providers {
+#     google = {
+#       source  = "hashicorp/google"
+#       version = "3.82.0"
+#     }
+#   }
 }
 provider "google" {
 
