@@ -1,6 +1,6 @@
 FROM node
-COPY build build
-COPY server server
+# COPY build build
+# COPY server server
 CMD [ "node","server/server.js" ]
 
 # # Stage 0 - Build Frontend Assets
