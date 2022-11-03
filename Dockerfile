@@ -2,6 +2,7 @@ FROM node
 # COPY build build
 # COPY server server
 CMD [ "node","server/server.js" ]
+EXPOSE 8080
 
 # # Stage 0 - Build Frontend Assets
 # FROM node:12.16.3-alpine as build
