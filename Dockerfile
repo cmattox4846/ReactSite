@@ -1,6 +1,6 @@
 FROM node
 # COPY build build
-# COPY server server
+COPY server server
 CMD [ "node","server/server.js" ]
 EXPOSE 8080
 
